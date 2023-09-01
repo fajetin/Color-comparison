@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Color Comparison</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="colors.js"></script>
+    </head>
+<body>
+    <div id="belka">
+        <div class="colorpickerdiv">
+            <select name="colorleft" id="colorleft">
+                <option>color name:</option>
+                <option>#</option>
+            </select>
+            <input type="text" id="colortextleft" onchange="changeleftcolor()">
+        </div>
+        <div class="colorpickerdiv">
+            <select name="colorright" id="colorright">
+                <option>color name:</option>
+                <option>#</option>
+            </select>
+            <input type="text" id="colortextright" onchange="changerightcolor()">
+        </div>
+    </div>
+    
+    <div id="colorcompare">
+        <div id="leftcolor">
+            Left Color
+        </div>
+    
+        <div id="rightcolor">
+            Right Color
+        </div>
+    </div>
+</body>    
+</html>

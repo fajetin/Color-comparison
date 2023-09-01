@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+#belka{
+    width: 100%;
+    height: 100px;
+    background: #5B9A8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorpickerdiv{
+    padding: 20px;
+}
+
+#colorcompare{
+    display: flex;
+    width: 100%;
+    height: calc(100% - 102px);
+}
+
+#leftcolor, #rightcolor{
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; 
+    font-family: "Trebuchet MS";
+    font-size: 36px;
+    border-top: 2px solid black;
+}
+
+#leftcolor{
+    background: #FFF3DA;
+    border-color: #000000;
+    border-right: 1px solid black;
+}
+
+#rightcolor{
+    background: #D0BFFF;
+}
